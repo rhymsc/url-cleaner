@@ -13,3 +13,9 @@ git clone https://github.com/rhymsc/url-cleaner.git
 ```python
 python3 url.py
 ```
+
+## output
+
+```python
+input file , and the result file , will be  hasil.txt
+```
