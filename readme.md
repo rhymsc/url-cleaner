@@ -14,8 +14,8 @@ git clone https://github.com/rhymsc/url-cleaner.git
 python3 url.py
 ```
 
-## output
+## add https and http
 
 ```python
-input file , and the result file , will be  hasil.txt
+python3 regexhttps.py
 ```
