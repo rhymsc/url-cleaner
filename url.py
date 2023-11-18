@@ -35,6 +35,12 @@ ______ _   ___   ____  ___ _____ _____
                 if hasil:
                     output_line = f"{hasil}\n"
                     print(output_line, end='')
+
+                    # Add the print statement for the modified URL here
+                    subdomain = "subdomain"  # Replace this with your desired subdomain
+                    host = "host"  # Replace this with your desired host
+                    print(f"https://{subdomain + host + '.' + match.group(3)}/")
+
                     output.write(output_line)
                 else:
                     print(f"{url}")
